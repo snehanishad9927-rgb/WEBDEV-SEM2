@@ -15,7 +15,7 @@ if(average>=90){
   result="pass";
 }
 else if (average>=75){
-  grade="B";
+  grade="B+";
   result="pass";
 }
 else if (average>=60){
