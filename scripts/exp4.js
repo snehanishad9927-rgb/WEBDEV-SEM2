@@ -1,7 +1,7 @@
-function calculateresult(){
-  let n = document.getelementbyid("subjects").value;
+function calculateResult(){
+  let n = document.getElementById("subjects").value;
   let total = 0 ;
-  for(i=1;i<=n;i++){
+  for(let i=1;i<=n;i++){
     let marks =parseFloat( prompt("enter marks for subject" + i));
 
     total= total + marks;
@@ -35,8 +35,7 @@ else if (average>=30){
   result="fail";
 }
 
-document.getElementById("total").innerText = total;
-document.getElementById("average").innerText = total;
-document.getElementById("grade").innerText = total;
-document.getElementById("result").innerText = total;
+document.getElementById("average").innerText = average;
+document.getElementById("grade").innerText = grade;
+document.getElementById("result").innerText = result;
 }
