@@ -3,20 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>experiment 5</title>
+  <link rel="stylesheet" href="./styles/EXP5.css">
 </head>
 <body>
 <div class="container"></div>
-<h2>Employee Management System </h2>
-<input type="number" placeholder="Enter Employee ID">
-<input type="text" placeholder="Enter Employee name">
-<input type="text" placeholder="Enter Employee salary">
-<input type="text" placeholder="Enter Employee salary">
-<input type="number" placeholder="Enter Department">
-<button onclick="addEmployee()"> addEmployee</button>
+<h1>Enter Employee details</h1>
+<div class="labels">
+<label for ="name">Name</label>
+<input type="text" id="name" placeholder="Enter Employee Name"required>
+<br><br>
+<label for ="id">Employee ID</label>
+<input type="number" id="id" placeholder="Enter Employee ID"required><br><br>
+<label for="salary">Salary</label>
+<input type="number" id="salary" placeholder="Enter Salary" required><br><br>
+<label for="department">enter department</label>
+<input type="text" id="departmnent" placeholder="Enter department" required><br><br>
+
+</div>
+<button onclick="addEmployee()"class="button">Add Employee</button><br><br>
+<button onclick ="filterSalary()" class="button">salary>50000</button><br><br>
+<button onclick="displayEmployee()" class= "button">Display Employee</button><br><br>
+<button onclick="Totalsalary()" class= "button">total salary</button><br><br>
+<button onclick="averageSalary()" class= "button">average salary</button><br><br>
+<button onclick="sortByDepartment()" class= "button">sort by Department</button><br><br>
 
 
 
+</div>
+<div class="result"></div>
 
 
 
