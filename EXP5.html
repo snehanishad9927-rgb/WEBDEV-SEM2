@@ -1,40 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel ="stylesheet" href="styles/EXP5.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>experiment 5</title>
-  <link rel="stylesheet" href="./styles/EXP5.css">
+  <title>employee manangement system</title>
 </head>
 <body>
-<div class="container"></div>
-<h1>Enter Employee details</h1>
-<div class="labels">
-<label for ="name">Name</label>
-<input type="text" id="name" placeholder="Enter Employee Name"required>
-<br><br>
-<label for ="id">Employee ID</label>
-<input type="number" id="id" placeholder="Enter Employee ID"required><br><br>
-<label for="salary">Salary</label>
-<input type="number" id="salary" placeholder="Enter Salary" required><br><br>
-<label for="department">enter department</label>
-<input type="text" id="departmnent" placeholder="Enter department" required><br><br>
+  <h1>Employee Manangement System </h1>
+<label Employee Name> Employee Name</label>
+<input type="text"  id="name" placeholder=" Enter Employee Name"><br><br>
+<label Employee ID> Employee ID</label>
+<input type="number"  id="ID" placeholder=" Enter Employee ID"><br><br>
+<label Employee Salary>  salary</label>
+<input type="number"  id="salary" placeholder=" Enter Employee salary"><br><br>
+<label Employee Name> Employee Department</label>
+<input type="text"  id="department" placeholder=" Enter department"><br><br>
+<div class="container">
 
-</div>
-<button onclick="addEmployee()"class="button">Add Employee</button><br><br>
-<button onclick ="filterSalary()" class="button">salary>50000</button><br><br>
-<button onclick="displayEmployee()" class= "button">Display Employee</button><br><br>
-<button onclick="Totalsalary()" class= "button">total salary</button><br><br>
-<button onclick="averageSalary()" class= "button">average salary</button><br><br>
-<button onclick="sortByDepartment()" class= "button">sort by Department</button><br><br>
-
-
+<button onclick="addEmployee()" class="button">Add Employee</button><br><br>
+<div>
+<button onclick="displayEmployee()" class="button">Display All</button><br><br>
+<div>
+<button onclick="filtersalary()" class="button">Salary>50000</button><br><br>
+<div>
+<button onclick="totalsalary()" class="button" >total salary</button><br><br>
+<div>
+<button onclick="averagesalary()" class="button">Average Salary</button><br><br>
+<div>
+<button onclick="sortByDepartment()" class="button">sort By Department</button><br><br>
+<div>
 
 </div>
 <div class="result"></div>
 
-
-
-  <script src="/scripts/EXP.js"></script>
+  <script src="scripts/EXP5.js"></script>
 </body>
 </html>

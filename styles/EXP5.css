@@ -1,67 +1,30 @@
-container{
-
-text-align: center;
-
-display: block;
-
-background-color: rgb(129, 150, 194);
-
-margin: 30px;
-
-padding: 10px;
-
+/* Page */
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
 }
 
-.button{
-
-padding: 5px;
-
-margin: 5px;
-
-background-color: rgb(79, 180, 17);
+/* Only main container */
+.container {
+    width: 300px;
+    margin: 50px auto;
 }
 
-#name{
-
-height: 30px;
-
-width: 250px;
-
-border-radius: 10px;
-
-margin-left: 50px;
+/* Heading */
+h1 {
+    text-align: center;
 }
 
-#id{
-
-height: 30px;
-
-width: 250px;
-
-border-radius: 10px;
-
+/* Inputs */
+input {
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px;
 }
 
-#salary{
-
-height: 30px;
-
-width: 250px;
-
-border-radius: 10px;
-margin-left: 45px;
+/* Buttons */
+button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px;
 }
-
-#department{
-
-height: 30px;
-
-width: 250px;
-
-border-radius: 10px;
-
-margin-left: 10px;}
-
-.button:hover{
-
-background-color:rgb(215, 21, 21);}
