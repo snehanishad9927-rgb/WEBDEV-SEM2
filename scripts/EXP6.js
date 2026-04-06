@@ -1,29 +1,41 @@
+let fontSize = 32;
+
+// Change Heading
 function changeHeading() {
-    let newHeading = document.getElementById("newHeading").value;
-    if (newHeading !== "") {
-        document.getElementById("heading").innerHTML = newHeading;
+    let text = document.getElementById("inputText").value;
+    if (text !== "") {
+        document.getElementById("heading").innerText = text;
     }
 }
+
+// Change Background
 function changeBackground() {
-    let randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16).padStart(6, "0");
-    document.body.style.backgroundColor = randomColor;
+    document.body.style.backgroundColor = "lightblue";
 }
-function increaseFontsize(){
-  let heading = document.getElementById("heading");
-     let currentSize = parseFloat(window.getComputedStyle(heading).fontSize);
-    heading.style.fontSize = (currentSize + 4) + "px";
+
+// Increase Font Size
+function increaseFont() {
+    fontSize += 2;
+    document.getElementById("heading").style.fontSize = fontSize + "px";
 }
-function showHidePara(){
-  let para = document.getElementById("para");
-   if (para.style.display === "none") {
+
+// Show / Hide Paragraph
+function toggleParagraph() {
+    let para = document.getElementById("para");
+
+    if (para.style.display === "none") {
         para.style.display = "block";
     } else {
         para.style.display = "none";
-    } 
-}function reset() {
-    document.getElementById("heading").innerHTML = "Welcome to JavaScript Lab";
-    document.getElementById("heading").style.fontSize = "";
-    document.body.style.backgroundColor = "";
+    }
+}
+
+// Reset Page
+function resetPage() {
+    document.getElementById("heading").innerText = "Welcome to JavaScript Lab";
+    document.body.style.backgroundColor = "#f2f2f2";
     document.getElementById("para").style.display = "block";
-    document.getElementById("newHeading").value = "";
+    document.getElementById("heading").style.fontSize = "32px";
+    document.getElementById("inputText").value = "";
+    fontSize = 32;
 }
