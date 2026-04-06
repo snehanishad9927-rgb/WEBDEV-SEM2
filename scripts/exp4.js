@@ -2,8 +2,8 @@ function calculateResult(){
 let n = parseInt(document.getElementById("subjects").value);
 let total =0;
 for(let i=0;i<n;i++){
-  let x = parseFloat(prompt("enter marks of subjects" + (i + 1)));
-  total+=x;
+  let marks = parseFloat(prompt("enter marks of subjects" + (i + 1)));
+  total+=marks;
 }
 let average = total/n;
 let grade;
