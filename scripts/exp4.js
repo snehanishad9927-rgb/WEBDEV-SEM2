@@ -7,21 +7,35 @@ for(let i=0;i<n;i++){
 }
 let average = total/n;
 let grade;
-if (average>=90){
+if (average>=95){
 grade ="A+";
 }
-else if(average>=80){
+else if(average>=90){
   grade="A";
 }
-else if(average>=70){
+else if(average>=85){
   grade="B";
 }
-else if(average>=60){
+else if(average>=80){
+  grade="B+";
+}
+
+else if(average>=75){
+  grade="C+";
+}
+else if(average>=70){
   grade="C";
 }
-else if(average>=50){
+else if(average>=65){
+  grade="D+";
+}
+else if(average>=60){
   grade="D";
 }
+else if(average>=50){
+  grade="E";
+}
+
 else {
   grade="fail";
 }
