@@ -7,7 +7,7 @@
   <title>Document</title>
 </head>
 <body>
-  <h2 id="demo"> hello  </h2>
+  <!-- <h2 id="demo"> hello  </h2> -->
   <script>
   //document.getElementById("demo").innerHTML="welcom to javascripts"
 // let day =3;
@@ -46,13 +46,13 @@
 //   console.log(i);
 //   i++;
 // }
-let i=1;
+// let i=1;
 
 
-do{ consol.log(i);
- i++;
-}
-while(i<=0);
+// do{ consol.log(i);
+//  i++;
+// }
+// while(i<=0);
 
 
 
@@ -60,13 +60,24 @@ while(i<=0);
 // nodejs reast star based print outputs *** viva
 
 
+// -----------------map()-----------------
 
+// let numbers =[1,2,3,4];
+// let square = numbers.map(num =>num*num);
+// console.log(square);
+// ---------------filter-------------------
 
+// let numbers =[10,15,20,25];
+// let result = numbers.filter(num => num>15);
+// console.log(result);
 
+   //------------- reduce()-----------------
 
+let numbers =[10,20,30];
+let sum = numbers.reduce((total,num)=> total +num , 0);
+console.log(sum);
 
-
-
+// ------------------promises--------------------
   </script>
 </body>
 </html>
