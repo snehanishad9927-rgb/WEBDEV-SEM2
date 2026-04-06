@@ -23,7 +23,7 @@ else if(average>=50){
   grade="D";
 }
 else {
-  grade="E";
+  grade="fail";
 }
 
 document.getElementById("result").innerHTML = "average: " + average.toFixed(2) + "<br> grade : " + grade ;
