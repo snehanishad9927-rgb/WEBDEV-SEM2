@@ -14,17 +14,14 @@ function addEmployee() {
 
     let emp = { name, id, salary, dept };
     employees.push(emp);
-
     alert("Employee Added!");
 }
-
 // Display All
 function displayEmployee() {
     console.clear();
     console.log("All Employees:");
     employees.forEach(e => console.log(e));
 }
-
 // Salary > 50000
 function filtersalary() {
     let result = employees.filter(e => e.salary > 50000);

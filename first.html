@@ -7,6 +7,22 @@
 </head>
 <body>
   
-</body>
+</body> } else {
+        result = (temp - 32) * 5/9; // Fahrenheit → Celsius
+        document.getElementById("result").innerText = result + " °C";
+    }
 <script src="/scripts/scripts.js"></script>
 </html>
+function calculateTemp() {
+    let fahrenheit = document.getElementById("celcius").value;
+    
+    if (fahrenheit === "") {
+        alert("Please enter temperature");
+        return;
+    }
+
+    let celsius = (fahrenheit - 32) * 5 / 9;
+
+    document.getElementById("result").innerText =
+        "Celsius: " + celsius.toFixed(2);
+}
