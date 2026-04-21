@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel ="stylesheet" href="styles/EXP5.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>employee manangement system</title>
+</head>
+<body>
+  <h1>Employee Manangement System </h1>
+<label Employee Name> Employee Name</label>
+<input type="text"  id="name" placeholder=" Enter Employee Name"><br><br>
+<label Employee ID> Employee ID</label>
+<input type="number"  id="ID" placeholder=" Enter Employee ID"><br><br>
+<label Employee Salary>  salary</label>
+<input type="number"  id="salary" placeholder=" Enter Employee salary"><br><br>
+<label Employee  department Name> Employee Department</label>
+<input type="text"  id="department" placeholder=" Enter department"><br><br>
+<div class="container">
+
+<button onclick="addEmployee()" class="button">Add Employee</button><br><br>
+<button onclick="displayEmployee()" class="button">Display All</button><br><br>
+<button onclick="filtersalary()" class="button">Salary>50000</button><br><br>
+<button onclick="totalsalary()" class="button" >total salary</button><br><br>
+<button onclick="averagesalary()" class="button">Average Salary</button><br><br>
+<button onclick="sortByDepartment()" class="button">sort By Department</button><br><br>
+</div>
+<div class="result"></div>
+  <script src="scripts/EXP5.js"></script>
+</body>
+</html>
