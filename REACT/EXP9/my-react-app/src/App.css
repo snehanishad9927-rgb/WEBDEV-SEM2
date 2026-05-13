@@ -1,0 +1,16 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+}
+.container{
+    margin: 50px auto;
+    padding: 20px;
+    width: 350px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+} 
+input,button{
+    color: green;
+}

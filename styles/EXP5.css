@@ -8,6 +8,7 @@ body {
 .container {
     width: 300px;
     margin: 50px auto;
+   
 }
 
 /* Heading */
@@ -27,4 +28,5 @@ button {
     width: 100%;
     margin: 5px 0;
     padding: 5px;
+    background-color: blueviolet;
 }

@@ -12,6 +12,7 @@ input {
     width: 250px;
 }
 button {
+     background-color: rgb(43, 226, 43);
     padding: 5px 10px;
     margin: 5px;
     cursor: pointer;

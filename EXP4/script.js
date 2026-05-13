@@ -40,6 +40,7 @@ else {
   grade="fail";
 }
 
-document.getElementById("result").innerHTML = "average: " + average.toFixed(2) + "<br> grade : " + grade ;
+document.getElementById("result").innerHTML = "average: "
+ + average.toFixed(2) + "<br> grade : " + grade ;
 
 }
