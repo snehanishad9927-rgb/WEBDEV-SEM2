@@ -5,7 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
-  <div></div>
+<button id="mybtn"> click me!</button>
+<p id="demo"> hii there!</p>
+<script>
+ const btn = document.getElementById("mybtn");
+  btn.addEventListener("click", function(){
+document.getElementById("demo").innerHTML=Date();
+  });
+</script>
+
+
+
 </body>
 </html>
